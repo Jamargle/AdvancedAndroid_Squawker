@@ -36,4 +36,10 @@ dependencies {
 
     // Preferences Dependencies
     implementation 'com.android.support:preference-v7:27.0.2'
+
+    // Firebase
+    implementation 'com.google.firebase:firebase-messaging:11.8.0'
 }
+
+// For Firebase setup
+apply plugin: 'com.google.gms.google-services'
